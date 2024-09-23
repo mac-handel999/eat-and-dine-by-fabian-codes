@@ -1,0 +1,466 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "paradise", Georgia, 'Times New Roman', Times, serif,'Times New Roman', Times, serif;
+}
+
+body {
+    font-size: 15px;
+    background: #BA7837;
+   
+}
+
+header {
+  background: url(images/hero.jpg);
+  color: #fff;
+  
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 21px;
+  padding: 5px;
+  background: url(images/restaurant-interior.jpg);
+  background-clip: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.text-1 {
+  color: #FF6F00;
+  background: #000;
+}
+
+.text-2 {
+  color: #925F03;
+  background: #fff;
+}
+
+.nav-bar {
+  color: #FF6F00;
+  padding: 10px;
+  background: url('images/restaurant-interior.jpg');
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 5px;
+  justify-content: space-around;
+  opacity: 1.5;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #FFf;
+}
+
+.hero {
+  background: url('images/hero.jpg');
+  background-clip: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  text-size:5px;
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 2px;
+  
+  
+}
+
+.hero-text {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.home,.foods,.recipe {
+  border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
+  border-radius: 10px;
+  padding: 5px;
+  
+  
+}
+
+.home:hover,.foods:hover,.recipe:hover {
+  background: url('images/noodles.jpg');
+  border-radius: 0px;
+  border-top: 2px solid #fff;
+}
+
+.img-1 {
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.img-1:hover {
+  content: 'Hello world';
+  opacity: 1;
+  border-radius: 0px;
+}
+
+
+.learn-more, .get-recipe {
+  margin:10px;
+  padding:10px;
+  background: transparent;
+  border: 3px solid #FF6F00;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.learn-more:hover,.get-recipe:hover {
+  background: url('images/noodles.jpg');
+  
+}
+
+.food-section {
+  background: wheat;
+  margin: 1px;
+  padding: 10px;
+  color: #000;
+  text-align: center;
+}
+
+.menu {
+  text-align: center;
+  background: url('images/noodles.jpg');
+  color: #fff;
+  margin: 10px;
+  padding: 4px;
+  align-content: center;
+  
+}
+
+.food-img {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.img-2 {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.img-text {
+  flex-wrap: wrap;
+  color: #FF6F00;
+}
+
+.our-chef {
+  background:wheat;
+  padding: 15px;
+  color: #000;
+  text-align: center;
+
+}
+
+.chefs {
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 5px;
+}
+
+.img-3 {
+  border-radius: 5px;
+  opacity: 0.8;
+  
+  
+}
+
+.img-1:hover,.img-2:hover,.img-3:hover,.learn-more:hover, #submit-btn:hover {
+  box-shadow: 10px 12px 10px 12px black;
+  transform: translateY(10px);
+  transform: translateX(10px);
+  border-radius: 0px;
+  opacity: 1;
+ 
+}
+
+.recipe-section {
+  background: wheat;
+  padding: 10px;
+  text-align: center;
+}
+
+.breakfast {
+  background: #fff;
+  margin: 25px;
+  padding: 10px;
+  width: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: hidden;
+  
+  
+}
+
+.launch {
+  background: #fff;
+  margin: 25px;
+  padding: 10px;
+  width: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.dinner {
+  background: #fff;
+  margin: 25px;
+  padding: 10px;
+  width: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: hidden;
+  
+}
+
+.get-recipe {
+  margin: 10px;
+  padding: 10px;
+  color: #fff;
+  background: wheat;
+  text-align: center;
+}
+
+.our-branch {
+  margin: 0px;
+  padding: 10px;
+  background-color: wheat;
+  text-align:center ;
+}
+
+.branch-1 {
+  margin: 10px;
+  padding: 20px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cta {
+  background: url('images/footer.jpg');
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  
+}
+
+form  {
+  margin: 10px;
+  padding: 20px;
+  background: #BA7837;
+  color: #fff;
+  border-radius: 10px;
+}
+
+#name, #email,#message, #submit-btn {
+  margin: 15px;
+  padding: 10px;
+  background: wheat;
+  color: #fff;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  width: 85%;
+  height: auto;
+  border-image: url(images/footer.jpg);
+  border: 3px solid;
+    
+  
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+#name:focus {
+  background: #fff;
+  color: #000;
+}
+
+#email:focus {
+  background: #fff;
+  color: #000;
+}
+
+#message:focus {
+  background: #fff;
+  color: #000;
+}
+
+.top-btn {
+  margin:10px;
+  padding: 10px;
+  background-image: url(images/restaurant-interior.jpg) ;
+  font-size: 1.8rem;
+  border-radius: 50px;
+  position: fixed;
+  top: 580px;
+  bottom: 100px;
+  z-index: 1000;
+  outline: none;
+  border: 2px solid #000;
+  height: 60px;
+  width: 70px;
+  box-shadow: inset 3px 2px 3px 2px #BA7837;
+}
+
+.top-btn:hover {
+  box-shadow: 4px 5px 5px 4px #000;
+  background-image: url(images/footer.jpg)
+}
+
+/* From Uiverse.io by vinodjangid07 */ 
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.panWrapper {
+  width: 200px;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pan {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: fit-content;
+  animation: cooking 1.7s infinite;
+}
+@keyframes cooking {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: top right;
+  }
+  10% {
+    transform: rotate(-4deg);
+    transform-origin: top right;
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.food {
+  position: absolute;
+  width: 40%;
+  height: 6px;
+  background: linear-gradient(to bottom, rgb(82, 33, 33), rgb(200, 106, 106));
+  left: 10px;
+  border-radius: 50%;
+  animation: flip 1.7s infinite;
+  z-index: 2;
+  overflow: hidden;
+}
+@keyframes flip {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-100px) rotate(180deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(360deg);
+  }
+}
+.panBase {
+  z-index: 3;
+  width: 50%;
+  height: 22px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background: linear-gradient(to top, rgb(3, 156, 156), rgb(10, 191, 191));
+}
+.panHandle {
+  width: 40%;
+  background: linear-gradient(to bottom, rgb(18, 18, 18), rgb(74, 74, 74));
+  height: 10px;
+  border-radius: 10px;
+}
+.panShadow {
+  width: 70px;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0.21);
+  margin-left: 15px;
+  border-radius: 10px;
+  animation: shadow 1.7s infinite;
+  filter: blur(5px);
+}
+@keyframes shadow {
+  0% {
+    transform: scaleX(0.7);
+  }
+  50% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(0.7);
+  }
+}
+
+.anime {
+  margin: 0px;
+  padding: 10px;
+  flex-wrap: wrap;
+  background-image: url(images/fried-chicken.jpg);
+  text-align: center;
+  justify-items: center;
+  align-content: center;
+}
+
+
+
+.footer {
+  background: url('images/restaurant-interior.jpg');
+  
+  
+}
+
+.footer > p {
+  text-align: center;
+  color: #fff;
+  background: wheat;
+  background: url('images/.jpg');
+  
+  margin: 0px;
+  padding: 10px;
+}
+  
+
